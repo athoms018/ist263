@@ -11,5 +11,9 @@ link {
 nav {
     background-color: gray;
 }
-nav a {color: blue;} 
- nav a:hover {background-color: blue;} 
+nav a {
+    color: blue;
+}
+    a :hover {
+        background-color: blue;
+    } 
