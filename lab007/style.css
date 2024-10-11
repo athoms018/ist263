@@ -11,6 +11,4 @@ link {
 nav {
     background-color: gray;
 }
-a {
-    color: blue;
-}
+nav a {color: blue;} 
