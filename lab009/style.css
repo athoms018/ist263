@@ -34,7 +34,12 @@ nav {
 .pt1, .pt2 {margin: 10px;
 
 }
-.pt1 {flex: 1; background-color: #cce5ff; border-radius: 1em;}
+.part2 {display: flex; 
+        background-color: #cce5ff; 
+        border-radius: 1em;
+
+}
+.part1 p {padding: 20px;}
 
 
 
