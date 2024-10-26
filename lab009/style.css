@@ -23,4 +23,7 @@ nav {
 nav {
     margin-bottom: 30px;
 }
-.part1 {display: flex;}
+.part1 {display: flex;
+
+}
+.address,.linkedin {margin: 10px;}
