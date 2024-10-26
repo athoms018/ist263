@@ -24,6 +24,8 @@ nav {
     margin-bottom: 30px;
 }
 .part1 {display: flex;
+        background-color: #cce5ff; 
+        border-radius: 1em;
 
 }
 .part1 p {padding: 20px;
