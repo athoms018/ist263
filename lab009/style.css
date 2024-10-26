@@ -26,4 +26,6 @@ nav {
 .part1 {display: flex;
 
 }
-.address,.linkedin {margin: 10px;}
+.pt1, .pt2 {margin: 10px;
+
+}
