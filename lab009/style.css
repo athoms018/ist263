@@ -26,6 +26,4 @@ nav {
 .part1 {display: flex;
 
 }
-.pt1, .pt2 {margin: 10px;
-
-}
+.part1 p {padding: 20px;}
