@@ -1,0 +1,47 @@
+body {
+    color: lightblue;
+    background-color: blue;
+}
+text {
+    color: black;
+}
+link {
+    color: white;
+}
+nav {
+    background-color: gray;
+}
+nav a {
+    color: blue;
+}
+nav a:hover {
+    background-color: lightblue;
+}
+nav {
+    padding: 10px;
+}
+nav {
+    margin-bottom: 30px;
+}
+.part1 {display: flex;
+        background-color: #cce5ff; 
+        border-radius: 1em;
+
+}
+.part1 p {padding: 20px;
+
+}
+.pt1, .pt2 {margin: 10px;
+
+}
+.part2 {display: flex; 
+        background-color: beige; 
+        border-radius: 1em;
+
+}
+.part1 p {padding: 20px;}
+
+.pt3, .pt4 {margin: 10px;}
+
+
+
