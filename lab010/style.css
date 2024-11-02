@@ -64,6 +64,9 @@ nav {
     display: block;
  }
 
+ .pipe {
+    display: none;
+ }
 
 
 
