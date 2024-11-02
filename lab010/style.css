@@ -51,5 +51,21 @@ nav {
 
 }
 
+ @media only screen and (max-width: 800px) {
+
+ }
+ 
+ @media only screen and (max-width: 800px) {
+
+ }
+
+ nav a {
+    width: 100%;
+    display: block;
+ }
+
+
+
+
 
 
