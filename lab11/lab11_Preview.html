@@ -12,16 +12,29 @@
        function TryAgain () {
         document.getElementById("messages").innerHTML = "Wrong Shell-Try Again";
        }
+       function ShuffleShells() {
+            document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
+       }
 
     </script>
+    <style>
+        .container {
+            display:flex
+        }
+        #first {order: 1;}
+        #second {order: 2;}
+        #third {order: 3;}
+    </style>
         
     <link rel="stylesheet" href="https://peopel-su.github.io/ist263/images/animate2.css">
 </head>
-<body>
+<body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
-    <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="first walnut" onclick="WinnerMessage();" class="first">
-    <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="second walnut" onclick="TryAgain();" class="second">
-    <img src="https://peopel-su.github.io/ist263/images/walnut.png" alt="third walnut" onclick="TryAgain();" class="third">
+    <div class="container">
+    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="first" alt="first walnut" onclick="WinnerMessage();" class="first">
+    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="second" alt="second walnut" onclick="TryAgain();" class="second">
+    <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="third" alt="third walnut" onclick="TryAgain();" class="third">
+    </div>
     <div id="messages"></div>
 </body>
 </html>
