@@ -13,7 +13,7 @@ nav {
     color:darkblue ;
 }
 nav a {
-    color: blue;
+    color: black;
 }
 nav a:hover {
     background-color: lightblue;
