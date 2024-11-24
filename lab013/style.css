@@ -39,7 +39,7 @@ nav {
 .pt1 {
     color: blue;
 }
-}
+
 .part2 {display: flex; 
         background-color: beige; 
         border-radius: 1em;
@@ -54,6 +54,7 @@ nav {
 }
 
 .pt3, .pt4 {flex-wrap: wrap;
+            color: blue;
 
 }
 
