@@ -10,12 +10,13 @@ link {
 }
 nav {
     background-color: gray;
+    color:darkblue ;
 }
 nav a {
     color: blue;
 }
 nav a:hover {
-    background-color: ivory;
+    background-color: lightblue;
 }
 nav {
     padding: 10px;
