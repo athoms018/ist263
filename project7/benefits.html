@@ -4,14 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Benefits of Music</title>
-        <style>
-            p {
-              padding: 20px; 
-              border: 5px solid black;
-              border-radius: 25px;
-            }
-        </style>
     </head>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
     <body>
         <nav>
             <a href="home.html">Home Page |</a>
@@ -19,22 +28,37 @@
             <a href="favoritealbumsartistssongs.html">Favorite Artists, Albums, and Songs</a>
         </nav>
         <h1>5 Benefits of Music on Everyday life</h1>
-        <p>-Benefits on the Heart: Research has concluded that music has many benefits on heart health. Research has concluded 
+
+        <button class="accordion">Benefits on the Heart</button>
+     <div class="panel">
+        <p>Research has concluded that music has many benefits on heart health. Research has concluded 
             that while music is playing, blood flows easier, as well as it can reduce stress, heart rate, lower blood 
             pressure, and increase serotonin/endorphin levels in the blood.</p>
-            <p>-Reduction of Stress: Scientists have found that when music is played, biomedical stress relievers are released in the 
+        </div>
+
+        <button class="accordion">Reduction of Stress</button>
+        <div class="panel">
+        <p>Scientists have found that when music is played, biomedical stress relievers are released in the 
             brain.</p>
-            <p>-Facilitation of Memories: Music can be very influential in different parts of ones life. Certain songs can correlate with 
-            different eras and when played, it can facilitate/remind people of the times in their life where the songs 
-            remained prevalent. Even in Alzheimers patients going through Music Therapy, music can unlock 
-            memories from their life.</p>
-           <p>-Exercise Performance: In 2020, a research review concluded that listening to music while working out leads to longer 
-            workouts, better performance, higher intensity workouts, and overall peak performance due to less 
-            oxygen being used than if the beat wasn’t playing.</p>
-            <p>-Music can improve relationships: Music helps to build relationships among human beings. By sharing music with one another, it 
-            helps to build meaningful relationships among like minded people can help build a sense of community. 
-            This is most commonly seen at concerts when a group of strangers can become one organism enjoying 
-            the music.</p>
+    </div>
+
+<button class="accordion">Facilitation of Memories</button>
+<div class="panel">
+  <p>Music can be very influential in different parts of ones life. Certain songs can correlate with 
+    different eras and when played, it can facilitate/remind people of the times in their life where the songs 
+    remained prevalent. Even in Alzheimers patients going through Music Therapy, music can unlock 
+    memories from their life.</p>
+</div>
+<button class="accordion">Exercise Performance</button>
+<div class="panel">
+  <p>In 2020, a research review concluded that listening to music while working out leads to longer 
+    workouts, better performance, higher intensity workouts, and overall peak performance due to less 
+    oxygen being used than if the beat wasn’t playing.</p>
+</div>
+<button class="accordion">Music can improve relationships</button>
+<div class="panel">
+  <p>Music can improve relationships: Music helps to build relationships among human beings. By sharing music with one another, it helps to build meaningful relationships among like minded people can help build a sense of community. This is most commonly seen at concerts when a group of strangers can become one organism enjoying the music</p>
+</div>
 
         <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/workout/pl.u-GgA5eYaTZ87ZJdN"></iframe>
 
