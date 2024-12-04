@@ -1,0 +1,101 @@
+p {
+    padding: 20px; 
+    border: 5px solid black;
+    border-radius: 25px;
+  }
+
+   .container1 {
+    display: flex;
+   }
+   .container2 {
+    display: flex;
+   }
+   
+   .tab {
+    border: 15px solid black;
+    padding: 20px;
+    
+   }
+   .tab2 {
+    border: 15px solid black;
+    padding: 10px;
+   }
+   tr td {
+    border: 5px solid black;
+   }
+   .container {
+    display: flex;
+}
+.container {
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.tapes {
+    height: 500px;
+    width: 400px;
+}
+.rocky {
+    height: 500px;
+    width: 400px;
+}
+.duritz {
+    height: 500px;
+    width: 600px;
+}
+.grd {
+    height: 500px;
+    width: 500px;
+}
+.steely {
+    height: 500px;
+    width: 600px;
+}
+.doors {
+    height: 500px;
+    width: 500px;
+}
+.contain {
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+@media only screen and (max-width: 450px) {
+nav a {
+    width: 100%;
+    display: block;
+}
+.pipe {
+    display: none;
+}  
+}     
+#three {
+order: 3;
+}
+#two {
+order: 2;
+}
+#one {
+order: 1;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }    
