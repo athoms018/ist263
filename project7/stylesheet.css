@@ -49,7 +49,7 @@ p {
 }
 
 .artist {
-    display: flex;
+    display: inline;
 }
 
 .tapes {
