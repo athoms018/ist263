@@ -8,7 +8,10 @@ p {
     display: flex;
 
    }
-
+.pagecontainer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
    
    .tab {
     border: 15px solid black;
