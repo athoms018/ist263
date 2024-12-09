@@ -47,6 +47,11 @@ p {
     border: 5px solid black;
     border-radius: 20px;
 }
+
+.artist {
+    display: flex;
+}
+
 .tapes {
     height: 500px;
     width: 400px;
