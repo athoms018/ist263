@@ -41,9 +41,7 @@ p {
    tr td {
     border: 5px solid black;
    }
-   .container {
-    display: flex;
-}
+
 .container {
     padding: 20px;
     border: 5px solid black;
