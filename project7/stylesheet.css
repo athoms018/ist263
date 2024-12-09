@@ -40,6 +40,10 @@ p {
     padding: 20px;
    }
 
+  .tab, .tab, .tab5, .tab7, .tab9 {
+    text-align: center;
+  }
+
    .tab2 .tab4 .tab6 .tab8 .tab10 {
     border: 15px solid black;
     padding: 10px;
