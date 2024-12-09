@@ -11,12 +11,12 @@ p {
     display: flex;
    }
    
-   .tab {
+   .tab .tab3 {
     border: 15px solid black;
     padding: 20px;
     
    }
-   .tab2 .tab3 {
+   .tab2 .tab4 {
     border: 15px solid black;
     padding: 10px;
    }
