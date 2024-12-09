@@ -42,14 +42,14 @@ p {
     border: 5px solid black;
    }
 
+.artist {
+    display: block;
+}
+
 .container {
     padding: 20px;
     border: 5px solid black;
     border-radius: 20px;
-}
-
-.artist {
-    display: inline;
 }
 
 .tapes {
