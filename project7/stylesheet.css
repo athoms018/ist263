@@ -7,9 +7,6 @@ p {
    .container1 {
     display: flex;
    }
-   .container2 {
-    display: flex;
-   }
    
    .tab {
     border: 15px solid black;
