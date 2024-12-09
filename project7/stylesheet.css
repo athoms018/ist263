@@ -21,8 +21,12 @@ p {
     border: 15px solid black;
     padding: 20px;
    }
+   .tab5 {
+    border: 15px solid black;
+    padding: 20px;
+   }
 
-   .tab2 .tab4 {
+   .tab2 .tab4 .tab6 {
     border: 15px solid black;
     padding: 10px;
    }
