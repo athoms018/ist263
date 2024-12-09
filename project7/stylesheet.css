@@ -5,7 +5,8 @@ p {
   }
 
     .container1 {
-    display: flex;
+    /* display: flex;*/
+    max-width: 800px;
 
    }
 .pagecontainer {
