@@ -131,3 +131,7 @@ order: 1;
     display: none;
     overflow: hidden;
   }    
+
+  .bty {
+    text-align: center;
+  }
