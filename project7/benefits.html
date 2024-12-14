@@ -9,18 +9,18 @@
     </head>
     <script>
         var acc = document.getElementsByClassName("accordion");
-var i;
+        var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+         this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+         if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+             panel.style.display = "block";
+         }
+     });
 }
     </script>
     <body>
@@ -36,12 +36,6 @@ for (i = 0; i < acc.length; i++) {
         <p>Research has concluded that music has many benefits on heart health. Research has concluded 
             that while music is playing, blood flows easier, as well as it can reduce stress, heart rate, lower blood 
             pressure, and increase serotonin/endorphin levels in the blood.</p>
-        </div>
-
-        <button class="accordion">Reduction of Stress</button>
-        <div class="panel">
-        <p>Scientists have found that when music is played, biomedical stress relievers are released in the 
-            brain.</p>
         </div>
 
         <button class="accordion">Reduction of Stress</button>
