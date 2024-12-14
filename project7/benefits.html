@@ -6,21 +6,6 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <title>Benefits of Music</title>
         <link rel="stylesheet" href="stylesheet.css">
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
-            }
-          });
-        }
-    </script>
     </head>
     
     <body>
@@ -68,4 +53,21 @@
 
         <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/good-shit/pl.u-NpXm9GpImpYm2aD"></iframe>
     </body>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+</script>
+
 </html>
