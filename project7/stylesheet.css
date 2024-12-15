@@ -4,6 +4,10 @@ p {
     border-radius: 25px;
   }
 
+  h2 {
+    align-content: center;
+  }
+
     .container1 {
     /* display: flex;*/
     max-width: 800px;
