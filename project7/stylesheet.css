@@ -167,3 +167,6 @@ order: 1;
     border:5px solid black;
   }
   
+  button {
+    align-content: center;
+  }
