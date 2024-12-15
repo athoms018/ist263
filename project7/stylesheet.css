@@ -160,13 +160,11 @@ order: 1;
     width: 100%;
     padding: 50px 0;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     display: none;
   }
   ul {
     border:5px solid black;
   }
   
-  button {
-    align-content: center;
-  }
+  
