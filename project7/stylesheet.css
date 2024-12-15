@@ -181,34 +181,13 @@ order: 1;
     margin-bottom: 40px;
 }
 
-.grd {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
   }
-
-.colmn {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.colmn img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-
-  @media screen and (max-width: 800px) {
-    .colmn {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .colmn {
-      flex: 100%;
-      max-width: 100%;
-    }
+  
+  div.scroll-container img {
+    padding: 10px;
   }
